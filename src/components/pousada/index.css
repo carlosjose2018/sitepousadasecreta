@@ -1,0 +1,30 @@
+.container_pousadaQuartos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:500px;
+    height:130px;
+    margin-bottom:50px;
+}
+.container_pousadaQuartosPhase{
+    width:340px;
+    height:100px;
+    flex-wrap: wrap;
+}
+.container_pousadaQuartosPhase h3{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold; 
+   font-size: 18px;
+}
+.container_pousadaQuartosPhase p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+    margin-top: 10px;
+    font-size:16px;   
+ }
+.cardImagem{
+    width:150px;
+    height:130px;
+}

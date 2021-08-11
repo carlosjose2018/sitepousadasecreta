@@ -1,0 +1,18 @@
+.card{
+    width:330px;
+    height:250px;
+    border-bottom: 2px solid #437E72;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items:center;
+}
+.card-quartos{
+    width:330px;
+    height:200px;  
+} 
+.card-roteiro{
+    padding-top:15px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}

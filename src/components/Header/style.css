@@ -1,0 +1,62 @@
+/*Estilizando o Header .*/
+.container{
+    width: 100%;
+    height: 55px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:fixed;
+   
+}
+.container-Section{
+    width: 80%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo{
+    width: 300px;
+    height: 55px;  
+}
+.logo h1{
+    font-weight: normal;
+}
+.logo h1 span{
+    margin-left: 10px;
+    color: #1E90FF;
+}
+.navBar{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   font-size:15px;
+   text-transform: uppercase;
+   color: black;
+   font-weight: bold;
+   letter-spacing: 1px;
+   font-family: helvetica, Arial, sans-serif;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+}
+.navBar ul li{
+    margin-left: 10px;
+}
+.navBar .navLink{
+   text-decoration: none;
+   padding: 10px;
+   color: black;
+}
+.navBar .navLink:hover{
+    padding: 10px 10px 0px 10px;
+    border-bottom:3px solid #1E90FF ;
+ }
+
